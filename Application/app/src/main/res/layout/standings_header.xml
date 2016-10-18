@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:background="@color/colorPrimary"
+          android:orientation="horizontal">
+
+    <TextView
+        style="@style/StandingsHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_span="2"
+        android:text="@string/club"/>
+
+    <TextView
+        style="@style/StandingsHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/header_total_matches"/>
+
+    <TextView
+        style="@style/StandingsHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/header_matches_won"/>
+
+    <TextView
+        style="@style/StandingsHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/header_matches_draw"/>
+
+    <TextView
+        style="@style/StandingsHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/header_matches_lost"/>
+
+    <TextView
+        style="@style/StandingsHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/header_goal_diff"/>
+
+    <TextView
+        style="@style/StandingsHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/header_points"/>
+</TableRow>

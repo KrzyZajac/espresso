@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Perform EDP 2.1</string>
+    <string name="refresh">Refresh</string>
+
+    <string name="score_format">%1$s - %2$s</string>
+    <string name="club">Club</string>
+    <string name="header_total_matches">P</string>
+    <string name="header_matches_won">W</string>
+    <string name="header_matches_draw">D</string>
+    <string name="header_matches_lost">L</string>
+    <string name="header_goal_diff">GD</string>
+    <string name="header_points">Pts</string>
+    <string name="ranking_format">%1$02d</string>
+    <string name="toggle_menu">Toggle menu</string>
+    <string name="news">News</string>
+    <string name="scores">Scores</string>
+    <string name="standings">Standings</string>
+
+    <string name="no_news">No news to display at the moment!</string>
+    <string name="no_scores">No scores to display at the moment!</string>
+    <string name="no_standings">No standings to display at the moment!</string>
+    <string name="no_internet_message">No Internet connection!</string>
+    <string name="problems_reaching_server">Problems reaching the server</string>
+</resources>

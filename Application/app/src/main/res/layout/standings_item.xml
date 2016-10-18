@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:tools="http://schemas.android.com/tools"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:gravity="center">
+
+    <TextView
+        android:id="@+id/standings_header_ranking"
+        style="@style/StandingsItemCentered"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/grey"
+        tools:text="01"/>
+
+    <TextView
+        android:id="@+id/standings_header_name"
+        style="@style/StandingsItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Manchester United"/>
+
+    <TextView
+        android:id="@+id/standings_header_total"
+        style="@style/StandingsItemCentered"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="32"/>
+
+    <TextView
+        android:id="@+id/standings_header_won"
+        style="@style/StandingsItemCentered"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="30"/>
+
+    <TextView
+        android:id="@+id/standings_header_draw"
+        style="@style/StandingsItemCentered"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="1"/>
+
+    <TextView
+        android:id="@+id/standings_header_lost"
+        style="@style/StandingsItemCentered"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="1"/>
+
+    <TextView
+        android:id="@+id/standings_header_goals_difference"
+        style="@style/StandingsItemCentered"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="29"/>
+
+    <TextView
+        android:id="@+id/standings_header_points"
+        style="@style/StandingsItemCentered"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="100"/>
+</TableRow>

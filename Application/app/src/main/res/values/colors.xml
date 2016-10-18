@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="up_green">#55ef77</color>
+    <color name="down_red">#ff6d74</color>
+    <color name="grey">#555</color>
+
+    <color name="news_separator">#c2c2c2</color>
+
+    <color name="standing_blue_background">#ea81cae4</color>
+    <color name="standing_white_background">#FFF</color>
+    <color name="standing_font_color">@color/colorPrimary</color>
+</resources>

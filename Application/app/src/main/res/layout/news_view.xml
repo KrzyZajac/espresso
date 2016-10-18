@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="?attr/selectableItemBackground"
+              android:orientation="horizontal"
+              android:paddingLeft="@dimen/margin"
+              android:paddingRight="@dimen/margin">
+
+    <ImageView
+        android:id="@+id/news_item_image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        tools:src="@drawable/candy_cane"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/news_item_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            tools:text="Description of an awesome event that might be too long but we should not worry as this is properly handled here"/>
+
+        <TextView
+            android:id="@+id/news_item_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textColor="@android:color/holo_red_light"
+            tools:text="Date here"/>
+    </LinearLayout>
+</LinearLayout>

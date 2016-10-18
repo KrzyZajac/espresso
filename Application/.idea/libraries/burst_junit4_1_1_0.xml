@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="burst-junit4-1.1.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.burst/burst-junit4/1.1.0/960e3aa6837d21fd5ed6f900904e4b5117dfcdba/burst-junit4-1.1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.burst/burst-junit4/1.1.0/188a9c751d42442a8b896a7d60053be894ddd8ae/burst-junit4-1.1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
