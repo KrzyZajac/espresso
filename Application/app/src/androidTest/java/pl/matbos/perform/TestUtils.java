@@ -44,8 +44,8 @@ public class TestUtils {
         EIGHTH_STORY(7,"8th story teaser text here"),
         NINTH_STORY(8,"9th story teaser text here"),
         TENTH_STORY(9,"10th story teaser text here");
-        int item;
         String title;
+        int item;
 
         NewsItems(int item, String title) {
             this.item = item;
