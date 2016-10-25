@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Perform EDP 2.1</string>
+    <string name="app_name">Espresso App</string>
     <string name="refresh">Refresh</string>
 
     <string name="score_format">%1$s - %2$s</string>

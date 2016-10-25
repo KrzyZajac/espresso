@@ -19,7 +19,6 @@ import static android.support.test.espresso.assertion.ViewAssertions.matches;
 import static android.support.test.espresso.matcher.ViewMatchers.isDescendantOfA;
 import static android.support.test.espresso.matcher.ViewMatchers.isDisplayed;
 import static android.support.test.espresso.matcher.ViewMatchers.withId;
-import static android.support.test.espresso.matcher.ViewMatchers.withText;
 import static org.hamcrest.core.AllOf.allOf;
 import static pl.matbos.perform.TestUtils.isItemClicked;
 import static pl.matbos.perform.TestUtils.isItemDisplayed;
@@ -62,8 +61,7 @@ public class NewsTests {
     @Test
     public void shouldScrollToLastElement() {
         onView(withId(R.id.news_recycler)).perform(swipeUp());
-        onView(withText("10th story teaser text here"))
-                .check(matches(isDisplayed()));
+        isTextDisplayed("10th story teaser text here");
     }
 
     @Test

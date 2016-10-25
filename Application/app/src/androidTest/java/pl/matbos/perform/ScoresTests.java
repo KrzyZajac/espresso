@@ -20,12 +20,16 @@ public class ScoresTests {
     public void changeToScores(){
         isItemClicked(R.id.host_menu);
         isItemClicked(R.id.host_scores);
-
     }
 
     @Test
-    public void verifyIfScoreHeaderDisplayed() throws Exception{
+    public void verifyIfScoreHeaderDisplayed(){
         isItemDisplayed(R.id.score_header_text);
     }
+
+    /**
+     * 4. Test if text "Chelsea" is displayed
+     * 5. Back to News Page after every test
+     **/
 
 }
